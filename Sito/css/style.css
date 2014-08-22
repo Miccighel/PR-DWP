@@ -183,6 +183,15 @@ div#columnright table#questions td {
 	text-align: left;
 }
 
+div#columnright ol#list li {
+	color:#1C39BB;
+}
+
+div#columnright div.img img {
+	padding-left:30px;
+	width:500px;
+}
+
 div#columnright table#userProfiles {
 	font-size: 10pt;
 }
