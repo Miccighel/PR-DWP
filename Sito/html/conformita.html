@@ -1,22 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it">
+<!DOCTYPE html>
+<html>
 <head>
+	<meta charset="utf-8">
 	<title>Progettazione Siti e Portali Web </title>
 	<link rel="stylesheet" media="screen" type="text/css" href="../css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print">
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<div id="container">
 		<div id="header">
 			<a accesskey="0" href="#columnright">[0] Vai al contenuto principale</a><br />
 			<div id="logo">
-				<a name="top"><img src="../img/logo_uniud.png" alt="Logo dell'università degli studi di Udine" width="150" height="150"></a>	
+				<a id="top"><img src="../img/logo_uniud.png" alt="Logo dell'università degli studi di Udine" width="150" height="150"></a>	
 			</div>
 			<p id="location">Ti trovi in: <strong>Homepage</strong> > <strong>Verifica di conformità alle WCAG 2.0</strong></p>
 			<div id="title">
-			<h2>Università degli Studi di Udine</h2>
+				<h2>Università degli Studi di Udine</h2>
 				<h3>Relazioni per il progetto di "Progettazione di Siti e Portali Web"</h3>
-				</div>
+			</div>
 		</div>
 		<div id="columnleft">
 			<nav>
@@ -25,8 +28,7 @@
 					<li><a accesskey="h" href="../index.html">[H] Homepage</a></li>
 					<li><a accesskey="a" href="accessibilita.html">[A] Accessibilità</a></li>
 					<li><a accesskey="m" href="mappa.html">[M] Mappa del Sito</a></li>
-				</ul>
-				<ul>			
+				</ul>			
 					<ul>
 						<li>Simulazione Euristica Usabilità</li>
 						<li><a accesskey="q" href="simulazione.html#introduzione">[Q] Introduzione</a></li>
@@ -43,7 +45,7 @@
 						<li><a accesskey="p" href="conformita.html#dettaglio">[P] Dettaglio Risultati</a></li>
 					</ul>					
 					<ul>
-						<li>Rapporto del test con gli utenti</li>
+						<li>Rapporto del Test con gli Utenti</li>
 						<li><a accesskey="Z" href="utenti.html#titolo">[Z] Titolo e autori</a></li>
 						<li><a accesskey="X" href="utenti.html#introduzione">[X] Introduzione</a></li>
 						<li><a accesskey="C" href="utenti.html#perimetro">[C] Perimetro dell'indagine</a></li>
@@ -51,14 +53,13 @@
 						<li><a accesskey="B" href="utenti.html#metodologia">[B] Metodologia</a></li>
 						<li><a accesskey="N" href="utenti.html#dettaglio">[N] Dettaglio Risultati</a></li>
 					</ul>
-				</ul>
 			</nav>
 		</div>
 		<div id="columnright">
 			
-		<p class="sectionTitle"><a name="titolo">Titolo e autori</a></p>
+		<p class="sectionTitle"><a id="titolo">Titolo e autori</a></p>
 			
-			<a accesskey="l" href="#top">[L] Torna su</a>
+			<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
 
 			<p>Valutazione di conformità rispetto allo standard WCAG 2.0 del sito www.rai3.rai.it.</p>
 			
@@ -71,9 +72,9 @@
 
 			<p>In data: 28/07/14</p>
 
-			<p class="sectionTitle"><a name="introduzione">Introduzione</a></p>
+			<p class="sectionTitle"><a id="introduzione">Introduzione</a></p>
 
-			<a accesskey="l" href="#top">[L] Torna su</a>
+			<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
 
 			<p>L’accessibilità è definita come la capacità di un sito web di essere acceduto efficacemente da utenti diversi in contesti diversi con strumenti hardware/software diversi.</p> 
 
@@ -86,7 +87,7 @@
 				<ul>
 					<li><strong>Percepibilità: </strong>le informazioni e gli elementi che costituiscono l’interfaccia utente devono essere presentati in modo che siano facilmente percepiti dagli utenti indipendentemente dalla loro disabilità.</li>
 					<li><strong>Utilizzabilità: </strong>gli elementi dell’interfaccia utente e la navigazione all’interno del sito devono essere facilmente utilizzabili e non devono richiedere agli utenti azioni che qualcuno di loro potrebbe non essere in grado di eseguire.</li>
-					<li><strong>Comprensibilità: </strong>le informazioni e il funzionamento degli elementi dell’interfaccia utente devono essere comprensibili da tutti gli utenti senza alcuna difficoltà.</li>
+					<li><strong>Comprensibilità: </strong>le informazioni e il funzioidnto degli elementi dell’interfaccia utente devono essere comprensibili da tutti gli utenti senza alcuna difficoltà.</li>
 					<li><strong>Robustezza: </strong>Il contenuto deve essere sufficientemente robusto per essere interpretato in modo affidabile dalla maggior parte dei programmi utente, comprese le tecnologie assistive.</li>
 				</ul>
 
@@ -139,11 +140,1124 @@
 				<p>4.1.	Compatibile </p>
 			</div>
 
-			<p class="sectionTitle"><a name="perimetro">Perimetro dell'indagine</a></p>
+			<p class="sectionTitle"><a id="perimetro">Perimetro dell'indagine</a></p>
 
-			<a accesskey="l" href="#top">[L] Torna su</a>
+			<p>L’oggetto della valutazione di conformità è il sito web dell’emittente televisiva RAI TRE.</p>
 
-		</div>
+			<p class="sectionSubTitle">Pagine analizzate</p>
+
+			<p>Le pagine analizzate sono le seguenti: </p>
+
+			<ol>
+				<li>http://rai3.rai.it/: tale pagina è l’homepage del sito, ovvero il punto principale d’entrata per ciascun utente; risulta dunque interessante analizzarla poiché sicuramente gli utenti l’attraverseranno almeno una volta.</li>
+				<li>http://www.rai3.rai.it/dl/PortaliRai/Multimedia/ContentSet-c1ba3be4-d9fd-4c26-9fea-578792b52a9f.html:<br />tale pagina è risulta interessante perché ricca di contenuti multimediali quali immagini e video, per tale motivo può rappresentare una sfida interessante dal punto di vista dell’accessibilità.</li>
+			</ol>
+
+			<p>Le pagine sono state analizzate tra la fine di luglio e l’inizio di agosto dell’anno 2014.</p>
+
+			<p class="sectionSubTitle">Strumenti utilizzati</p>
+
+			<p>Gli strumenti tecnici e non utilizzati nell’attività di valutazione sono i seguenti:</p>
+
+			<ol>
+				<li>MacBook Pro con sistema operativo Mac OSX 10.9.4</li>
+				<li>Browser Google Chrome versione 33.0</li>
+				<li>Risoluzione dello schermo pari a 1440x900 pixel</li>
+				<li>Processore Intel Core 2 Duo da 2.53 GHz</li>
+				<li>4 Gb di RAM 1067 MHz DDR3</li>
+				<li>Traduzione italiana delle WCAG 2.0: <br />http://www.w3.org/Translations/WCAG20-it/ </li>
+				<li>Guida alla comprensione dei principi contenuti nelle WCAG 2.0, redatta dal W3C stesso: <br />http://www.w3.org/TR/UNDERSTANDING-WCAG20/ </li>
+				<li>Guida rapida di riferimento ai criteri di successo: <br />http://www.w3.org/WAI/WCAG20/quickref/#text-equiv </li>
+				<li>Software per analizzare il contrasto tra colori: <br />http://www.paciellogroup.com/resources/contrastanalyser/</li>
+			</ol>
+
+			<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
+
+			<p class="sectionTitle"><a id="sommario">Sommario Risultati</a></p>
+
+			<p>Al termine della valutazione di conformità secondo i principi e le linee guida WCAG 2.0, le pagine analizzate risultano essere <span class="notvalid">NON CONFORMI</span>. Nel seguito, un riassunto dei criteri di successo violati.</p>
+
+			<table>
+				<tr><td>Principio</td><td>Linea Guida</td><td>Criterio</td><td>Livello di conformità</td><td>Pagina - 1</td><td>Pagina - 2</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.1</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.2</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.3</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.4</td><td>AA</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.5</td><td>AA</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.6</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.7</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>1</td><td>1.2</td><td>1.2.8</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.1</td><td>2.1.1</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.1</td><td>2.1.3</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.4</td><td>2.4.1</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.4</td><td>2.4.7</td><td>AA</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.4</td><td>2.4.8</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>2</td><td>2.4</td><td>2.4.9</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.1</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.2</td><td>AA</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.3</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.4</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.5</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>3</td><td>3.1</td><td>3.1.6</td><td>AAA</td><td>X</td><td>X</td></tr>
+				<tr><td>4</td><td>4.1</td><td>4.1.1</td><td>A</td><td>X</td><td>X</td></tr>
+				<tr><td>4</td><td>4.1</td><td>4.1.2</td><td>A</td><td>X</td><td>X</td></tr>
+			</table>
+
+			<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
+
+			<p class="sectionTitle"><a id="dettaglio">Dettaglio risultati</a></p>
+
+			<p>Risultati dettagliati dell’analisi delle seguenti pagine:</p>
+
+			<ul>
+				<li>PAGINA 1 : http://rai3.rai.it/</li>
+				<li>PAGINA 2: <br />http://www.rai3.rai.it/dl/PortaliRai/Multimedia/ContentSet-c1ba3be4-d9fd-4c26-9fea-578792b52a9f.html</li>
+			</ul>
+
+			<div class="principleDetailed">
+
+				<p>1.	Percepibilità (PRINCIPIO)</p>
+				<p>le informazioni e gli elementi che costituiscono l’interfaccia utente devono essere presentati in modo che siano facilmente percepiti dagli utenti indipendentemente dalla loro disabilità.</p>
+
+				<div class="guideline">
+
+					<p>1.1.	Alternative testuali (LINEA GUIDA)	</p>
+					<p>Fornire alternative testuali per qualsiasi contenuto non di testo in modo che questo possa essere trasformato in altre forme fruibili secondo le necessità degli utenti come stampa a caratteri ingranditi, Braille, sintesi vocale, simboli o un linguaggio più semplice.</p>
+
+					<div class="criteria">
+						<p>1.1.1.	Contenuti non testuali (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>tutti i contenuti non testuali presentati all'utente hanno un'alternativa testuale equivalente che serve allo stesso scopo, ad eccezione di alcune situazioni.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Definizione: </strong></p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>ciascun contenuto non testuale presente sulla pagina possiede una descrizione testuale che consente di comprendere a cosa si riferisce tale contenuto, anche disabilitandolo.</p>
+						<div class="img">
+							<img src="../img/conformita/1.1.1.png" alt="immagine"/>
+						</div>
+					</div>
+				</div>
+
+				<div class="guideline">
+
+					<p>1.2.	Tipi di media temporizzati (LINEA GUIDA)</p>
+					<p>Fornire alternative per i tipi di media temporizzati.</p>
+
+					<div class="criteria">
+						<p>1.2.1.	Solo audio e solo video preregistrati (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per i tipi di media preregistrati di solo audio e di solo video, a meno che questi non costituiscano un tipo di media alternativo ad un contenuto testuale chiaramente etichettato come tale, vengono soddisfatti i seguenti punti: </p>
+						<ul>
+							<li><strong>Solo audio preregistrato:</strong> È fornita un'alternativa per il tipo di media temporizzato che presenti informazioni equivalenti per il contenuto di solo audio preregistrato.</li>
+							<li><strong>Solo video preregistrato:</strong>È fornita un'alternativa per il tipo di media temporizzato oppure una traccia audio che presenti informazioni equivalenti per il contenuto di solo video preregistrato.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>A</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina sono presenti video preregistrati riguardo ai programmi di Rai 3, ma non è presente un alternativa testuale; ciò potrebbe limitare gli utenti con disabilità cognitive che trarrebbero beneficio dall’analisi in contemporanea dello stesso contenuto espresso tramite due media diversi, ma anche quegli utenti con disabilità uditive che, perciò, non sono in grado di fruire del contenuto dei video.</p>
+						<p><strong>Rimedio: </strong>aggiungere la descrizione testuale del video nella sua pagina; poichè il testo può essere espresso in diverse forme sensoriali, gli utenti disabili ne guadagnerebbero, analizzando in contemporanea lo stesso contenuto espresso tramite due media diversi.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.2.	Sottotitoli preregistrati (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per tutti i contenuti audio presenti in tipi di media preregistrati sono forniti sottotitoli sotto forma di tipi di media sincronizzati, eccetto quando tali tipi di media sono l'alternativa di testi e sono chiaramente etichettati come tali.</p>
+						<p><strong>Livello di conformità: </strong>A</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina sono presenti video preregistrati riguardo ai servizi di Rai 3, del tutto assenti di sottotitoli; risulta evidente che gli utenti con disabilità uditive non sono in grado di fruire i contenuti del video stesso.</p>
+						<p><strong>Rimedio: </strong>aggiungere i sottotitoli ai video, oppure una descrizione testuale che consenta di aumentare le possibilità di fruizione del contenuto anche per tale categoria di utenti.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.3.	Descrizione audio o tipo di media alternativo (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>un'alternativa per i tipi di media temporizzati oppure una descrizione audio per i contenuti video preregistrati sono forniti per i tipi di media sincronizzati, eccetto quando il tipo di media è un tipo di media alternativo ad un contenuto testuale ed è chiaramente etichettato come tale.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina sono presenti video preregistrati riguardo ai servizi di Rai 3, tuttavia non sono disponibili descrizioni audio dei contenuti oppure testuali degli stessi; in tal modo, persone che soffrono di disabilità visive o uditive non possono fruire efficacemente i vari contenuti audiovisivi.</p>
+						<p><strong>Rimedio: </strong>rendere disponibile una descrizione audio oppure testuale dei video, aumentando dunque l’accessibilità del contenuto stesso per gli utenti con disabilità uditive o visive.</p>
+
+						<div class="img">
+							<img src="../img/conformita/1.2.3.png" alt="immagine"/>
+						</div>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.4.	Sottotitoli in tempo reale (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>I sottotitoli sono forniti per tutti i contenuti audio in tempo reale sotto forma di tipi di media sincronizzati.</p>
+						<p><strong>Livello di conformità: </strong>AA</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>i contenuti audio in tempo reale presenti sul sito non sono sincronizzati con dei sottotitoli testuali, rendendo dunque la fruizione difficoltosa per le persone completamente sorde oppure con  deficit uditivi.</p>
+						<p><strong>Rimedio: </strong>aggiungere dei sottotitoli contenenti non solo le conversazioni, ma anche tutti i restanti effetti sonori consente agli utenti con disabilità uditive di accedere alle informazioni contenute nell’audio trasmesso in tempo reale, poiché la disabilità stessa viene superata dall’accessibilità del contenuto.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.5.	Descrizione audio preregistrata (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>una descrizione audio è fornita per tutti i contenuti video preregistrati sotto forma di tipi di media sincronizzati.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nei video presenti sulla pagina non è presente alcun tipo di descrizione audio che consenta agli utenti con disabilità di accedere alle informazioni contenute nel video stesso.</p>
+						<p><strong>Rimedio: </strong>fornire una descrizione audio dei contenuti del video, poichè persone non vedenti o ipovedenti, così come quelle con limitazioni cognitive, hanno difficoltà a interpretare visivamente ciò che sta accadendo, perciò trarrebbero beneficio dalla descrizione audio delle informazioni visive.</p>
+						<p><strong>Osservazioni</strong>il requisito si considera già soddisfatto se si è deciso di optare per un alternativa audio nel criterio di successo 1.2.3</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.6.	 Lingua dei segni preregistrata (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>l'interpretazione tramite lingua dei segni è fornita per tutti i contenuti audio preregistrati sotto forma di tipi di media sincronizzati.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Definizione: </strong></p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>non è disponibile alcun tipo di video contente la descrizione tramite lingua dei segni dei contenuti audio erogati in sincronia con il media visuale. </p>
+						<p><strong>Rimedio: </strong>l’aggiunta di una versione dei contenuti in lingua dei segni consente agli utenti con disabilità uditive oppure con difficoltà cognitive per quanto riguarda la lettura che, tuttavia, conoscono tale lingua, di ottenere un accesso ai contenuti sostanzialmente equivalente a quello di una persona normodotata.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.7.	Descrizione audio estesa preregistrata (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per tutti i contenuti video preregistrati, se le pause nell'audio principale sono troppo brevi per consentire alle descrizioni audio di comunicare il senso del video, sono fornite delle descrizioni audio estese sotto forma di tipi di media sincronizzati.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>poiché non risulta soddisfatto il requisito di livello A che indica l’adozione di descrizioni audio dei contenuti sottoforma di media sincronizzati, non risulta soddisfatto nemmeno tale requisito di livello superiore che indica l’adozione di descrizioni audio estese.</p>
+						<p><strong>Rimedio: </strong>l’adozione di una descrizione audio preregistrata estesa consente agli utenti con disabilità visive di comprendere meglio il video; tale descrizione viene riprodotta una volta messo in pausa il video stesso, per illustrare nel dettaglio il contenuto appena percepito dall’utente. Questo tipo di descrizione estesa viene utilizzato poiché quella base, sincronizzata con il video, non è sufficiente, se quest’ultimo è ricco di dettagli.</p>
+					</div>
+
+					<div class="criteria">
+						<p>Tipo di media alternativo preregistrato (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>un'alternativa per i tipi di media temporizzati è fornita per tutti i contenuti preregistrati di tipi di media sincronizzati e per tutti i tipi di media preregistrati di solo video.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>la mancanza di una descrizione audio e testuale del contenuto video impedisce la fruizione a quegli utenti che hanno disabilità uditive e visive.</p>
+						<p><strong>Rimedio: </strong>il requisito si può considerare superato se è stata adottata l’alternativa testuale nel criterio 1.2.3 e se è stato soddisfatto il criterio 1.2.5; tuttavia nella pagina analizzata ciò non si è verificato.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.2.9.	Solo audio in tempo reale (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>fornire un'alternativa per i tipi di media temporizzati che presenta informazioni equivalenti per i contenuti solo audio in tempo reale.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non è presente nessun contenuto costituito solamente da audio in tempo reale.</p>	
+					</div>
+				</div>
+
+				<div class="guideline">
+
+					<p>1.3.	Adattabile (LINEA GUIDA)</p>
+					<p>Creare contenuti che possano essere rappresentati in modalità differenti (ad esempio, con layout più semplici), senza perdere informazioni o la struttura.</p>
+
+					<div class="criteria">
+						<p>1.3.1.	Informazioni e correlazioni (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le informazioni, la struttura e le correlazioni trasmesse dalla presentazione possono essere determinate programmaticamente oppure sono disponibili tramite testo.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina analizzata non è presente un testo che illustri le informazioni fornite da variazioni nella presentazione dei contenuti, tuttavia vengono utilizzati adeguati tag semantici per eseguire il markup della struttura, in tal modo gli utenti con disabilità possono accedere alle informazioni della pagina utilizzando tecnologie assistive in grado di determinare le informazioni fornite dalla presentazione dei contenuti.</p>			
+					</div>
+
+					<div class="criteria">
+						<p>1.3.2.	Sequenza significativa (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>quando la sequenza in cui il contenuto è presentato influisce sul suo significato, la corretta sequenza di lettura può essere determinata programmaticamente.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong></p>	
+						<p><strong>Rimedio: </strong></p>	
+						<p><strong>Osservazioni: </strong>la pagina analizzata possiede una struttura tale che i contenuti sono ordinati in una sequenza significativa per mezzo della struttura del markup; per tale motivo le tecnologie assistive utilizzate da un utente disabile  sono in grado di fornire una corretta sequenza di lettura dei contenuti stessi.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.3.3.	Caratteristiche sensoriali (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le istruzioni fornite per comprendere ed operare sui contenuti non devono basarsi unicamente su caratteristiche sensoriali dei componenti quali forma, dimensione, ubicazione visiva, orientamento o il suono.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>	
+						<p><strong>Osservazioni: </strong>ogni contenuto presente sulla pagina ha un identificatore testuale che consente agli utenti di capire di cosa si tratta.</p>
+					</div>
+
+				</div>
+
+				<div class="guideline">
+
+					<p>1.4.	Distinguibile (LINEA GUIDA)</p>
+					<p>Rendere più semplice agli utenti la visione e l'ascolto dei contenuti, separando i contenuti in primo piano dallo sfondo.</p>
+
+					<div class="criteria">
+						<p>1.4.1.	Uso del colore (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>il colore non deve essere utilizzato come unica modalità visiva per rappresentare informazioni, indicare azioni, richiedere risposte o come elemento di distinzione visiva. </p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina sono presenti alcuni elementi con un colore diverso dal quello predominante, ad indicare elementi particolari come, ad esempio, il programma correntemente in onda, tuttavia è presente un’etichetta testuale che illustra la tipologia dell’elemento stesso, perciò il colore non è l’unico veicolo di informazione.</p>		
+					</div>
+
+					<div class="criteria">
+						<p>1.4.2.	Controllo del sonoro (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se un contenuto audio all'interno di una pagina Web è eseguito automaticamente per più di tre secondi è necessario fornire una funzionalità per metterlo in pausa o interromperlo, oppure si deve fornire una modalità per il controllo dell'audio che sia indipendente dal controllo predefinito del sistema. </p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non è presente alcun contenuto audio che parte in automatico.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.4.3.	Contrasto minimo (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>la rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 4.5:1, fatta eccezione per i seguenti casi:</p>
+						<ul>
+							<li>Testo grande: Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 3:1.</li>
+							<li>Testo non essenziale: Testo o immagini contenenti testo che sono parti inattive di componenti dell'interfaccia utente, che sono di pura decorazione, non visibili a nessuno, oppure che fanno parte di immagini contenenti contenuti visuali maggiormente significativi, non hanno alcun requisito di contrasto.</li>
+							<li>Logotipi: Un testo che è parte di un logo o marchio non ha alcun requisito minimo di contrasto.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>il colore del font dei testi presenti sulla pagina ha un rapporto di contrasto sufficiente con i colori di sfondo; tuttavia, alcuni di essi hanno una dimensione troppo piccola per far si che il requisito sia soddisfatto.</p>	
+						<p><strong>Rimedio: </strong>aumentare le dimensioni del font oppure utilizzare colori diversi in grado di aumentare il rapporto di contrasto; in tal modo gli utenti ipovedenti saranno in grado di fruire efficacemente il contenuto di tali testi.</p>	
+						<div class="img">
+							<img src="../img/conformita/1.4.3.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>1.4.4.	Ridimensioidnto del testo (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>il testo, ad eccezione dei sottotitoli e delle immagini contenenti testo, può essere ridimensionato fino al 200 percento senza l'ausilio di tecnologie assistive e senza perdita di contenuto e funzionalità.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>i vari elementi costituenti il layout della pagina hanno delle dimensioni in pixel, senza fare uso delle misure relative di tipo em; inoltre non sono presenti sulla pagina controlli in grado di cambiare il fattore di scale del testo ed infine non è supportato lo zoom del testo effetuato direttamente dallo user agent.</p>	
+						<p><strong>Rimedio: </strong>implementare almeno una delle tecniche precedentemente citate; ciò consente agli utenti con blande disabilità visive di adattare il testo alle proprie esigenze visive aumentando l’accessibilità del contenuto stesso.</p>	
+						<div class="img">
+							<img src="../img/conformita/1.4.4.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>1.4.5.	Immagini di testo (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se le tecnologie utilizzate consentono la gestione della rappresentazione visiva dei contenuti, il testo è utilizzato per veicolare informazioni piuttosto che le immagini di testo, ad eccezione dei seguenti casi: </p>
+						<ul>
+							<li>Personalizzabile: L'immagine di testo può essere personalizzata visivamente per le esigenze dell'utente;</li>
+							<li>Essenziale: Una particolare rappresentazione del testo è essenziale per il tipo di informazioni veicolate.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non sono presenti immagini di testo.</p>					
+					</div>
+
+					<div class="criteria">
+						<p>1.4.6.	Contrasto avanzato (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>la rappresentazione visiva del testo e di immagini contenenti testo ha un rapporto di contrasto di almeno 7:1, fatta eccezione per i seguenti casi:</p>
+						<ul>
+							<li>Testo grande: Testo grande e immagini contenenti testo grande devono avere un rapporto di contrasto di almeno 4.5:1;</li>
+							<li>Testo non essenziale: Testo o immagini contenenti testo che sono parti inattive di componenti dell'interfaccia utente, che sono di pura decorazione, non visibili a nessuno, oppure che fanno parte di immagini contenenti contenuti visuali maggiormente significativi, non hanno alcun requisito di contrasto.</li>
+							<li>Logotipi: Un testo che è parte di un logo o marchio non ha alcun requisito minimo di contrasto.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>poiché non è stato soddisfatto nemmeno il requisito di livello AA 1.4.3, nemmeno quello in oggetto lo sarà.</p>	
+						<p><strong>Rimedio: </strong>vedere requisito 1.4.3.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>1.4.7.	Sottofondo sonoro basso o non presente (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per i contenuti di solo audio preregistrato che (1) contengono principalmente parlato in primo piano (2) non sono CAPTCHA audio o loghi audio e (3) non sono una vocalizzazione intesa per essere principalmente espressione musicale come canto o rap, si applica almeno uno dei seguenti casi: </p>
+						<ul>
+							<li>Nessun sottofondo: Il sonoro non contiene suoni di sottofondo.</li>
+							<li>Spegnimento: Il sottofondo sonoro può essere disattivato.</li>
+							<li>20 dB: Il sottofondo sonoro deve essere inferiore di almeno 20 decibel rispetto al parlato in primo piano, con l'eccezione di suoni occasionali che durano solo per uno o due secondi.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non sono presenti contenuti di solo audio preregistrato.</p>
+					</div>
+
+					<div class="criteria">
+						<p>1.4.8.	Presentazione visiva (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per la presentazione visiva di blocchi di testo, è disponibile una modalità per conseguire i seguenti obiettivi: </p>
+						<ul>
+							<li>I colori del testo in primo piano e dello sfondo possono essere scelti dall'utente.</li>
+							<li>La larghezza non supera gli 80 caratteri o glifi (40 se CJK).</li>
+							<li>Il testo non è giustificato (allineato sia al margine destro che al margine sinistro).</li>
+							<li>Lo spazio tra righe (interlinea) è almeno di uno spazio e mezzo all'interno del paragrafo mentre lo spazio tra paragrafi, è almeno una volta e mezzo più grande rispetto all'interlinea.</li>
+							<li>Il testo può essere ridimensionato fino al 200 percento senza il supporto delle tecnologie assistive in modo da non richiedere all'utente di dover scorrere orizzontalmente per leggere una riga di testo in una finestra a schermo intero.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>la pagina non risulta soddisfare nessuna delle proprietà elencate nella definizione del requisito risulta soddisfatta; la quinta proprietà, in particolare, non viene soddisfatta nemmeno nel criterio di livello AA 1.4.4; un eventuale applicazione del criterio può migliorare l’accessibilità della pagina stessa per utenti che possiedono diverse tipologie di disabilità.</p>	
+						<p><strong>Rimedio: </strong></p>	
+						<ul>
+							<li>Implementare un color picker che consenta di selezionare il colore del foreground e del background.</li>
+							<li class="listImage">
+								<div class="img">
+									<img src="../img/conformita/1.4.8-1.png" alt="immagine"/>
+								</div>
+							</li>
+							<li>Utilizzare delle misure relative di tipo em nel codice css per fare in modo che le righe dei box di testo abbiano, all’incirca, 80 caratteri ciascuna.</li>	
+							<li>Specificare tramite codice css l’allineamento del testo a sinistra o a destra.</li>
+							<li class="listImage">
+								<div class="img">
+									<img src="../img/conformita/1.4.8-2.png" alt="immagine"/>
+								</div>
+							</li>
+							<li>Specificare tramite codice css l’interlinea necessario per il rispetto del requisito.</li>
+							<li class="listImage">
+								<div class="img">
+									<img src="../img/conformita/1.4.8-3.png" alt="immagine"/>
+								</div>
+							</li>
+						</ul>
+					</div>
+
+					<div class="criteria">
+						<p>1.4.9.	Sottofondo sonoro basso o non presente (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per i contenuti di solo audio preregistrato che (1) contengono principalmente parlato in primo piano (2) non sono CAPTCHA audio o loghi audio e (3) non sono una vocalizzazione intesa per essere principalmente espressione musicale come canto o rap, si applica almeno uno dei seguenti casi: </p>
+						<ul>
+							<li>Nessun sottofondo: Il sonoro non contiene suoni di sottofondo.</li>
+							<li>Spegnimento: Il sottofondo sonoro può essere disattivato.</li>
+							<li>20 dB: Il sottofondo sonoro deve essere inferiore di almeno 20 decibel rispetto al parlato in primo piano, con l'eccezione di suoni occasionali che durano solo per uno o due secondi.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non sono presenti contenuti di solo audio preregistrato. </p>
+					</div>
+				</div>
+			</div>
+
+			<div class="principleDetailed">
+
+				<p>2.	Utilizzabile (PRINCIPIO)</p>
+				<p>I componenti e la navigazione dell'interfaccia utente devono essere utilizzabili.</p>
+
+				<div class="guideline">
+
+					<p>2.1.	Accessibile da tastiera (LINEA GUIDA)</p>
+					<p>Rendere disponibili tutte le funzionalità tramite tastiera.</p>
+
+					<div class="criteria">
+						<p>2.1.1.	Tastiera (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per le singole battiture, salvo il caso in cui sia la funzionalità di fondo a richiedere un input che dipende dal percorso del movimento dell'utente e non solo dai suoi punti d'arrivo.</p>
+						<p><strong>Livello di conformità: </strong>A</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina non è implementata alcuna funzionalità che consenta la navigazione tramite tastiera.</p>	
+						<p><strong>Rimedio: </strong>la navigazione tramite tastiera può essere ottenuta in diversi modi; due esempi sono i seguenti:</p>	
+						<ul>
+							<li>Utilizzo dell’attributo accesskey nei tag html, in modo da indicare con quale tasto può essere raggiunto l’elemento stesso.</li>
+							<li>Utilizzo dell’evento javascript di tipo onkeypress che consente di eseguire determinate funzioni alla pressione di un tasto.</li>
+						</ul>
+						<p>Gli utenti con disabilità visive, con difficoltà motorie alle mani oppure coloro che utilizzano tecnologie assistive che forniscono un’interfaccia alternativa per la tastiera traggono benefici dalla soddisfazione del criterio in oggetto.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.1.2.	Nessun impedimento all’uso da tastiera (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se il focus può essere portato tramite interfaccia di tastiera su un componente della pagina, deve anche poter essere spostato dallo stesso componente sempre tramite interfaccia di tastiera e, se a tal fine non fosse sufficiente l'uso dei normali tasti freccia o tab o l'uso di altri metodi di uscita standard, l'utente deve essere informato sul metodo per rilasciare il focus.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>è possibile scorrere l’intera pagina utilizzando il tasto tab della tastiera, tuttavia è difficile capire su quale elemento risulta esserci il focus</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.1.3.	Tastiera, nessuna eccezione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>tutte le funzionalità del contenuto sono utilizzabili tramite un'interfaccia di tastiera senza richiedere tempi specifici per le singole battute.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>poiché non risulta soddisfatto il requisito di livello A 2.1.1, nemmeno il requisito in oggetto lo è.</p>	
+						<p><strong>Rimedio: </strong>utilizzare le tecniche indicate nel requisito 2.1.1 per ottenere un’implementazione almeno parziale della navigazione da tastiera; rimangono esclusi dalla fruizione mediante tastiera i player video presenti sulla pagina. Utenti con disabilità visive o motorie difficilmente potranno fruire pienamente del contenuto.</p>	
+					</div>
+				</div>
+
+				<div class="guideline">
+
+					<p>2.2.	Adeguata disponibilità di tempo (LINEA GUIDA)</p>
+					<p>Fornire agli utenti tempo sufficiente per leggere ed utilizzare i contenuti</p>
+
+					<div class="criteria">
+						<p>2.2.1.1.	Regolazione dei tempi d’esecuzione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per ogni temporizzazione presente nel contenuto, è soddisfatto almeno uno dei seguenti casi:</p>
+						<ul>
+							<li>Spegnimento: All'utente è consentito arrestare il limite di tempo prima di raggiungerlo; oppure</li>
+							<li>Regolazione: All'utente è consentito regolare il limite di tempo prima di raggiungerlo in un'ampia gamma che sia almeno dieci volte superiore alla durata dell'impostazione predefinita; oppure</li>
+							<li>Estensione: L'utente è avvisato prima dello scadere del tempo; gli sono dati almeno 20 secondi per estendere il limite tramite un'azione semplice (per esempio: "premere la barra spaziatrice") e gli è consentito di estendere il limite per almeno 10 volte; oppure</li>
+							<li>Eccezione per eventi in tempo reale: Il limite di tempo è un elemento fondamentale di un evento in tempo reale (ad esempio, un'asta on line), e non è possibile eliminare questo vincolo; oppure</li>
+							<li>Eccezione di essenzialità: Il limite di tempo è essenziale per l'attività (ad esempio: una verifica a tempo) ed estenderlo l'invaliderebbe; oppure</li>
+							<li>Eccezione delle 20 ore: Il limite di tempo è superiore a 20 ore.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non sono presenti funzioni che richiedano di eseguire determinate azioni in un periodo di tempo limitato.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.2.2.	Pausa, stop, nascondi (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>nei casi di animazioni, lampeggiamenti, scorrimenti o auto-aggiornamenti di informazioni, sono soddisfatti tutti i seguenti punti:</p>
+						<ul>
+							<li>Spostamento, lampeggiamento, scorrimento: Per qualsiasi movimento, lampeggiamento o scorrimento di informazioni che (1) si avvia automaticamente, (2) dura più di cinque secondi ed (3) è presentato in parallelo con altro contenuto, è presente un meccanismo per metterlo in pausa, interromperlo o nasconderlo, a meno che il movimento, il lampeggiamento o lo scorrimento siano parte essenziale dell'attività; e</li>
+							<li>Auto-aggiornamento: Per qualsiasi auto-aggiornamento di informazioni che (1) si avvia automaticamente ed (2) è presentato in parallelo con altro contenuto, è presente un meccanismo per metterlo in pausa, interromperlo o nasconderlo o per controllare la frequenza dell'aggiornamento a meno che l'auto-aggiornamento sia parte essenziale dell'attività.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina 1 è presente un unico elemento animato provvisto del tasto per bloccare tale animazione.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.2.3.	Nessun tempo di esecuzione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>Le temporizzazioni non sono indispensabili per la tipologia di contenuto, ad eccezione fatta dei tipi di media sincronizzati ed eventi in tempo reale.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.2.4.	Interruzioni (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le interruzioni possono essere rinviate o annullate dall'utente ad eccezione di quelle che riguardano un'emergenza.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.2.5.	Reautenticazione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>quando una sessione autenticata scade, l'utente deve poter continuare l'attività senza perdita di dati dopo essersi reautenticato.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Osservazioni: </strong>Non sono presenti meccanismi di login che permettano l’utilizzo delle sessioni.</p>
+					</div>
+				</div>
+
+				<div class="guideline">
+
+					<p>2.3.	Convulsioni (LINEA GUIDA)</p>
+					<p>Non sviluppare contenuti che potrebbero causare attacchi epilettici</p>
+
+					<div class="criteria">
+						<p>2.3.1.	Tre lampeggiamenti o inferiore alla soglia (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le pagine Web non devono contenere nulla che lampeggi per più di tre volte al secondo oppure il lampeggiamento è al di sotto della soglia generale di lampeggiamento e della soglia del lampeggiamento rosso.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non sono presenti contenuti lampeggianti.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.3.2.	Tre lampeggiamenti (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le pagine Web non devono contenere nulla che lampeggi per più di tre volte al secondo.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non sono presenti contenuti lampeggianti.</p>
+					</div>
+				</div>
+
+					<div class="guideline">
+
+					<p>2.4.	Navigabile (LINEA GUIDA)</p>
+					<p>Fornire delle funzionalità di supporto all'utente per navigare, trovare contenuti e determinare la propria posizione.</p>
+
+					<div class="criteria">
+						<p>2.4.1.	Salto di blocchi (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>fornire una modalità per saltare i blocchi di contenuto che si ripetono su più pagine Web.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina non è presente alcun tipo di link che consenta di saltare direttamente al contenuto principale o ai contenuti dei singoli blocchi.</p>	
+						<p><strong>Rimedio: </strong>aggiungere collegamenti che fungano da ancora per contenuti dei vari blocchi; tali collegamenti consentono agli utenti di raggiungere più velocemente ed efficacemente i contenuti stessi.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>2.4.2.	Titolazione della pagina (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le pagine Web hanno titoli che ne descrivono l'argomento o la finalità.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.4.3.	Ordine del focus (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se una pagina Web può essere navigata in modo sequenziale le sequenze di navigazione influiscono sul significato e sul funzionamento, gli oggetti che possono ricevere il focus lo ricevono in un ordine che ne conserva il senso e l'operatività.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>gli utenti che navigano nella pagina in modo sequenziale, ovvero utilizzando una tastiera o un’interfaccia per tastiera, incontrano delle informazioni che sono consistenti con il significato dei contenuti; in tal modo gli utenti formano un corretto modello mentale del sito.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.4.4.	Scopo del collegamento nel contesto (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>lo scopo di ogni collegamento può essere determinato dal solo testo del collegamento oppure dal testo del collegamento insieme a dei contenuti contestuali che possono essere determinati programmaticamente, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per la gran parte degli utenti.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>tutti i collegamenti presenti sulla pagina possiedono etichette adeguate alla comprensione della destinazione del collegamento stesso.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.4.5.	Differenti modalità (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibile più di una modalità per identificare una pagina Web all'interno di un insieme di pagine Web, salvo il caso in cui una pagina Web sia il risultato – o una fase – di un'azione.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina sono presenti due motori di ricerca ed, in home page, tutti i collegamenti alle altre pagine del sito, in tal modo gli utenti possono localizzare la pagina di cui hanno bisogno nel modo che preferiscono.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.4.6.	Intestazioni ed etichette (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>utilizzare intestazioni ed etichette per descrivere argomenti o finalità.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>ogni elemento, contenuto, collegamento presente sulla pagina possiede un’adeguata etichetta che ne descrive senso, finalità o destinazione.</p>
+					</div>
+
+					<div class="criteria">
+						<p>2.4.7.	Focus visibile (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>qualsiasi interfaccia utente utilizzabile tramite tastiera ha una funzionalità operativa in cui è visibile l'indicatore del focus.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>navigando nella pagina tramite il tasto tab della tastiera, si nota che i vari componenti della pagina che ricevono il focus via via che si procede nella navigazione non vengono evidenziati in alcun modo.</p>	
+						<p><strong>Rimedio: </strong>utilizzare codice css oppure javascript per fare in modo che il componente che possiede correntemente il focus sia evidenziato.</p>	
+						<div class="img">
+							<img src="../img/conformita/2.4.7.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>2.4.8.	Posizione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibili informazioni sulla posizione dell'utente all'interno di un insieme di pagine Web.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina non sono disponibili delle “briciole di pane” che informano l’utente riguardo alla posizione attuale nel sito web.</p>	
+						<p><strong>Rimedio: </strong>implementare le “briciole di pane” o quantomeno una mappa del sito; tale caratteristica può aiutare quegli utenti che rimangono confusi dopo una lunga navigazione attraverso diversi collegamenti tra pagine a comprendere il percorso seguito.</p>	
+						<div class="img">
+							<img src="../img/conformita/2.4.8.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>2.4.9.	Scopo del collegamento (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibile una funzionalità per comprendere lo scopo dei collegamenti basandosi sul solo testo del collegamento, salvo il caso in cui lo scopo del collegamento potrebbe risultare ambiguo per la gran parte degli utenti.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina, rimanendo fermi con il puntatore del mouse per qualche istante su un collegamento compare un tooltip, che riporta solamente lo stesso testo usato come etichetta per il collegamento. </p>	
+						<p><strong>Rimedio: </strong>espandere il contenuto del tooltip descrivendo qual è effettivamente lo scopo del collegamento.</p>	
+						<div class="img">
+							<img src="../img/conformita/2.4.9.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>2.4.10.	 Intestazioni di sezione (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>le intestazioni di sezione sono utilizzate per organizzare il contenuto. </p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina i contenuti testuali sono caratterizzati da un titolo di sezione, identificabile all’interno del codice html dai vari tag &lt; h1 > – &lt; h6 >.</p>
+						<div class="img">
+							<img src="../img/conformita/2.4.10.png" alt="immagine"/>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+			<div class="principleDetailed">
+
+				<p>3.	Comprensibile (PRINCIPIO)</p>
+				<p>Le informazioni e le operazioni dell'interfaccia utente devono essere comprensibili.</p>
+
+				<div class="guideline">
+
+					<p>3.1.	Leggibile (LINEA GUIDA)</p>
+					<p>Rendere il testo leggibile e comprensibile</p>
+
+					<div class="criteria">
+						<p>3.1.1.	Lingua della pagina (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>l'impostazione della lingua predefinita di ogni pagina Web può essere determinata programmaticamente.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nel tag &lt; html > non è presente l’attributo lang utilizzato per indicare la lingua della pagina web.</p>	
+						<p><strong>Rimedio: </strong>aggiungere tale attributo nel tag corrispondente.</p>	
+						<div class="img">
+							<img src="../img/conformita/3.1.1.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>3.1.2.	Parti in lingua (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>la lingua di ogni passaggio o frase nel contenuto può essere determinata programmaticamente ad eccezione di nomi propri, termini tecnici, parole in lingue indeterminate e parole o frasi che sono diventate parte integrante del gergo del testo immediatamente circostante</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>in nessun tag hmtl della pagina è presente l’attributo lang che consente ad eventuali tecnologie assistive di determinare programmmaticamente la lingua del contenuto del tag stesso. L’assenza di tale attributo impedisce alle tecnologie assistive di determinare la lingua corretta da impiegare.</p>	
+						<p><strong>Rimedio: </strong>è sufficiente aggiungere l’attributo lang al tag &lt; html >, questo perché la pagina è tutta in italiano, e tale attributo viene ereditato da tutti gli elementi figli di quell’elemento che lo possiede.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>3.1.3.	Parole inusuali (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibile una modalità per l'identificazione di specifiche definizioni di parole o frasi usate in un modo insolito o ristretto, compresi espressioni idiomatiche e gergali.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>non è presente alcun modo per poter ottenere una definizione o una spiegazione dei termini utilizzati nei contenuti della pagina.</p>	
+						<p><strong>Rimedio: </strong>fornire una lista di definizioni oppure il collegamento ad un glossario di parole; tale caratteristica può aiutare quegli utenti che soffrono di disabilità cognitive o che, semplicemente, non sono lettori assidui.</p>	
+						<div class="img">
+							<img src="../img/conformita/3.1.3.png" alt="immagine"/>
+						</div>	
+					</div>
+
+					<div class="criteria">
+						<p>3.1.4.	Abbreviazioni (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibile una modalità per identificare la forma espansa o il significato delle abbreviazioni.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>poiché tale criterio non risulta soddisfatto per le parole normali, come indicato nel criterio 3.1.3, non lo sarà neanche per le abbreviazioni.</p>	
+						<p><strong>Rimedio: </strong>riferirsi al criterio 3.1.3, aggiungendo anche le abbreviazioni.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>3.1.5.	Livello di lettura (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>quando il testo richiede capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore dopo aver rimosso i nomi propri ed i titoli, fornire dei contenuti supplementari oppure una versione che non richieda la capacità di lettura più avanzata rispetto al livello di istruzione secondaria inferiore. </p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina non è presente alcun tipo di riassunto o aiuto nella comprensione dei contenuti.</p>	
+						<p><strong>Rimedio: </strong>aggiungere un riassunto semplificato dei contenuti della pagina sottoforma di testo o altri media, come per esempio l’audio o l’immagine; in tal modo gli utenti con un’istruzione inferiore al livello di istruzione secondario possono comprere tali contenuti.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>3.1.6.	Pronuncia (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibile una modalità per identificare specifiche pronunce per le parole dove il significato delle parole, nel contesto, è ambiguo senza la conoscenza della pronuncia.</p>
+						<p><strong>Livello di conformità: </strong></p>
+						<p><strong>Esito: </strong>AAA.</p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nella pagina non è presente alcuna modalità che consenta di comprendere la pronuncia di determinati termini, parole o frasi che possono risultare complesse.</p>	
+						<p><strong>Rimedio: </strong>alcune possibili soluzioni sono quelle di aggiungere un player audio che pronunci quanto desiderato, inserire la pronuncia immediatamente dopo la parola oppure inserire dei collegamenti ad un dizionario che contenga anche la pronuncia stessa.</p>	
+						<div class="img">
+							<img src="../img/conformita/3.1.6.png" alt="immagine"/>
+						</div>	
+					</div>
+				</div>
+
+				<div class="guideline">
+
+					<p>3.2.	Prevedibile (LINEA GUIDA)</p>
+					<p>Creare pagine web che appaiano e che siano prevedibili</p>
+
+					<div class="criteria">
+						<p>3.2.1.	Al focus (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>quando qualsiasi componente riceve il focus, non deve avviare automaticamente un cambiamento del contesto.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non c’è alcun componente che avvii tale tipologia di cambiamento quando riceve il focus.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>3.2.2.	All’input (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>cambiare l'impostazione di qualsiasi componente nell'interfaccia utente non provoca automaticamente un cambiamento di contesto, a meno che l'utente sia stato informato del comportamento prima di utilizzare il componente.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non ci sono componenti dell’interfaccia utente che avviano un cambiamento di contesto quando l’utente ne modifica le impostazioni</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.2.3.	Navigazione coerente (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>i meccanismi di navigazione che sono ripetuti su più pagine Web all'interno di un insieme di pagine Web, devono apparire nello stesso ordine corrispondente ogni volta che si ripetono, a meno che un cambiamento sia stato avviato da un utente. </p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.2.4.	Identificazione coerente (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>I componenti che hanno la stessa funzionalità all'interno di un insieme di pagine Web sono identificati in modo univoco.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>tutti i componenti nella pagina che svolgono funzioni analoghe sono identificati in modo univoco; per esempio, i collegamenti che portano agli altri siti del network rai sono posizionati in basso e bianchi, mentre quelli che portano alle registrazioni dei programmi già trasmessi sono blu e sono posizionati nella colonna di destra.</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.2.5.	Cambiamenti su richiesta (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>I cambiamenti di contesto sono avviati solo su richiesta degli utenti, oppure è disponibile un meccanismo per disattivare questi cambiamenti.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina ci sono dei componenti dell’interfaccia utente dove avvengono dei cambiamenti al verificarsi di un evento di tipo onchange, a livello di linguaggio di scripting, tuttavia tali cambiamenti avvengono senza provocare cambiamenti di contesto.</p>
+						<div class="img">
+							<img src="../img/conformita/3.2.5.png" alt="immagine"/>
+						</div>	
+					</div>
+				</div>
+			</div>
+
+				<div class="guideline">
+
+					<p>3.3.	Assistenza nell’inserimento (LINEA GUIDA)</p>
+					<p>Aiutare gli utenti ad evitare gli errori ed agevolarli nella loro correzione.</p>
+
+					<div class="criteria">
+						<p>3.3.1.	Identificazione di errori (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se viene rilevato automaticamente un errore di inserimento, l'elemento in errore viene identificato e descritto tramite testo.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>nella pagina non è presente alcun tipo di form con campi obbligatori o che richiedono dati di tipo particolare.</p>	
+					</div>
+
+					<div class="criteria">
+						<p>3.3.2.	Etichette o istruzioni (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>fornire etichette o istruzioni quando il contenuto richiede azioni di input da parte dell'utente.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>l’unico controllo presente nella pagina possiede un etichetta che ne descrive adeguatamente il senso.</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.3.3.	Suggerimenti per gli errori (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>se viene identificato un errore di inserimento che si può correggere, è necessario fornire suggerimenti all'utente, a meno che ciò non pregiudichi la sicurezza o la finalità del contenuto.</p>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>non essendo valutabile il criterio 3.3.1, non lo sarà neanche quello in oggetto.</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.3.4.	Prevenzione degli errori legali, finanziari o dati (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per le pagine Web che contengono vincoli di tipo giuridico o finanziario o che gestiscono inserimento, cancellazione, gestione di dati controllabili dall'utente in un sistema di archiviazione oppure che inoltrano delle risposte di utenti a test, è soddisfatta almeno una delle seguenti condizioni:</p>
+						<ul>
+							<li>Reversibilità: le azioni sono reversibili.</li>
+							<li>Controllo: I dati inseriti dall'utente sono verificati e si fornisce all'utente la possibilità di correggere eventuali errori di inserimento.</li>
+							<li>Conferma: è disponibile un funzionalità per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non valutabile.</li>
+								<li>PAGINA 2: requisito non valutabile.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/.</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.3.5.	Aiuto (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>rendere disponibili gli aiuti contestuali.</p>
+						<p><strong>Livello di conformità: </strong>AAA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>/.</p>
+					</div>
+
+					<div class="criteria">
+						<p>3.3.6.	Prevenzione di tutti gli errori (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>per tutte le pagine Web che richiedano l'invio di informazioni da parte dell'utente, è soddisfatta almeno una delle seguenti condizioni:</p>
+						<ul>
+							<li>Reversibilità: le azioni sono reversibili.</li>
+							<li>Controllo: I dati inseriti dall'utente sono verificati e si fornisce all'utente la possibilità di correggere eventuali errori di inserimento.</li>
+							<li>Conferma: è disponibile un funzionalità per la revisione, conferma e correzione delle informazioni prima del loro invio definitivo.</li>
+						</ul>
+						<p><strong>Livello di conformità: </strong>AA.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito soddisfatto.</li>
+								<li>PAGINA 2: requisito soddisfatto.</li>
+							</ul>
+						<p><strong>Osservazioni: </strong>l’unico controllo presente sulla pagina serve alla ricerca, e tale azione è tranquillamente invertibile.</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="principleDetailed">
+
+				<p>4.	Robusto (PRINCIPIO)</p>
+				<p>Il contenuto deve essere abbastanza robusto per essere interpretato in maniera affidabile mediante una vasta gamma di programmi utente, comprese le tecnologie assistive.</p>
+
+				<div class="guideline">
+
+					<p>4.1.	Compatibile (LINEA GUIDA)</p>
+					<p>Garantire la massima compatibilità con i programmi utente attuali e futuri, comprese le tecnologie assistive.</p>
+
+					<div class="criteria">
+						<p>4.1.1.	Analisi sintattica (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>Nel contenuto implementato utilizzando linguaggi di marcatura gli elementi possiedono tag di apertura e chiusura completi, sono annidati in conformità alle proprie specifiche, non contengono attributi duplicati e tutti gli ID sono unici, salvo il caso in cui le specifiche permettano eccezioni.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nel codice html della pagina sono stati rilevati, tramite il validatore del W3C, settantaquattro errori; nel seguito verrà descritta una sola occorrenza per ogni tipologia d’errore.</p>
+						<ul>
+							<li>Valore errato per l’attributo http-equiv dell’elemento meta.</li>
+							<li class="listImage">
+								<div class="img">
+									<img src="../img/conformita/4.1.1-1.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Valore errato per l’attributo name  dell’elemento meta, la cui parola chiave non è registrata.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-2.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Il contenuto testuale di un elemento di script non è nel formato specificato.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-3.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>L’attributo language è obsoleto.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-4.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>L’elemento style si trova nella posizione sbagliata nel codice html.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-5.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Elementi vuoti.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-6.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Attributo alt mancante negli elementi img.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-7.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Valore errato per l’attributo rel dell’elemento a, la cui parola chiave non è registrata.</li>	
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-8.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Escape di un carattere speciale non eseguito.</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-9.png" alt="immagine"/>
+								</div>	
+							</li>
+							<li>Attributi obsoleti</li>
+							<li class="listImage"><div class="img">
+									<img src="../img/conformita/4.1.1-10.png" alt="immagine"/>
+								</div>	
+							</li>
+						</ul>
+						<p><strong>Rimedio: </strong></p>		
+						<ul>
+							<li>Inserire un valore corretto nell’attributo;  tali valori sono: content-type, default-style e refresh.</li>
+							<li>Utilizzare parole chiave registrate nella WHATWG wiki oppure nelle specifiche dell’html; è possibile registrare le proprie parole chiave nella wiki.</li>
+							<li>Inserire spazi, tabulazioni, slash ma non il punto e virgola.</li>
+							<li>Cancellare l’attributo language.</li>
+							<li>Inserire l’elemento style come figlio dell’elemento head.</li>
+							<li>Cancellare gli elementi vuoti oppure popolarli.</li>
+							<li>Inserire l’attributo mancante nel tag img.</li>
+							<li>Utilizzare parole chiave registrate nella Microformats wiki, nelle specifiche dell’html oppure utilizzare un url assoluta. È possibile registrate le proprie parole chiave nella wiki.</li>
+							<li>Eseguire l’escape della e commerciale con &amp;-amp;</li>
+							<li>Cancellare gli attributi obsoleti.</li>
+						</ul>		
+					</div>
+
+					<div class="criteria">
+						<p>4.1.2.	Name, Role, Value (CRITERIO DI SUCCESSO)</p>
+						<p><strong>Definizione: </strong>4.1.2.1.	Definizione: per tutti i componenti dell'interfaccia utente (inclusi ma non limitati a: elementi di un modulo, collegamenti e componenti generati da script), name (nome) e role (ruolo) devono essere determinati programmaticamente; stati, proprietà e valori che possono essere impostati dall'utente devono essere impostabili da programma; e le notifiche sui cambi di stato di questi elementi devono essere rese disponibili ai programmi utente, incluse le tecnologie assistive.</p>
+						<p><strong>Livello di conformità: </strong>A.</p>
+						<p><strong>Esito: </strong></p>
+							<ul>
+								<li>PAGINA 1: requisito non soddisfatto.</li>
+								<li>PAGINA 2: requisito non soddisfatto.</li>
+							</ul>
+						<p><strong>Cause: </strong>nel codice html della pagina ci sono moltissimi errori e, per tale motivo, non viene utilizzato secondo le specifiche; le tecnologie assistive potrebbero non essere in grado di ottenere informazioni riguardo allo stato dei componenti dell’interfaccia utente, come, per esempio, la perdita del focus oppure il testo alternativo da utilizzare qualora l’immagine mancasse.</p>	
+						<p><strong>Rimedio: </strong>validare il codice delle pagine utilizzando i suggerimenti indicati nel criterio 4.1.1 in modo che le tecnologie assistive possano determinare programmaticamente le informazioni di cui hanno bisogno. Tale rimedio è sufficiente poiché non sono presenti componenti dell’interfaccia utente creati ex-novo con un linguaggio di scripting.</p>	
+					</div>
+				</div>
+
+				<a accesskey="l" href="#top" title="torna ad inizio pagina">[L] Torna su</a>
+
+			</div>	
+			
 		<div id="footer">
 			<p id="authors">Soprano Michael - 112151, Perazza Giuliano - 112461</p>
 		</div>

@@ -1,9 +1,20 @@
+/* ELIMINAZIONE COMPONENTI NON NECESSARIE */
+
+div#footer, div#header, div#columnleft {
+	display:none;
+}
+
+a.linktop {
+	display: none;
+}
+
 /* STILIZZAZIONE GENERALE */
 
 * {
 	margin: 0;
 	padding: 0;
 }
+
 html {
 	font-family: Arial, Helvetica, sans-serif;
 	background-color: #4682B4;
@@ -34,76 +45,10 @@ a:visited {
 	color:#4682B4;
 }
 
-div#container {
-	margin: 0 auto;
-	background-color: #fff;
-	border-left: 1px solid #bbb;
-	border-right: 1px solid #bbb;
-	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-	width:1000px;
-	padding: 5px;
-}
-
-/* STILIZZAZIONE TESTATA */
-
-div#header {
-	width:1000px;
-	border-bottom:1px solid #bbb;
-	padding-bottom: 5px;
-	height:215px;
-}
-
-div#logo {
-	width:1000px;
-}
-
-div#header div {
-	padding-top: 10px;
-}
-
-div#header div#title {
-	margin-left: 180px;
-	position:relative;
-	bottom:150px;
-}
-
-div#header a {
-	text-decoration: none;
-}
-
-/* STILIZZAZIONE COLONNA SINISTRA */
-
-div#columnleft {
-	width:289px;	
-	float:left;
-	padding-left:20px;
-	padding-top:10px;
-	padding-bottom:10px;
-}
-
-div#columnleft a {
-	text-decoration: none;
-}
-
-nav ul {
-	list-style-type:none;	
-}
-
-nav ul li {
-	padding-left:10px;
-}
-
-nav>ul li:first-child {
-	padding-left:0;
-	font-weight: bold;
-}
-
 /* STILIZZAZIONE COLONNA DESTRA */ 
 
 div#columnright {
-	border-left:1px solid #bbb;
-	width:670px;
-	float:left;
+	width:auto;
 	padding-left:10px;
 	padding-right: 10px;
 	text-align: justify;
@@ -112,8 +57,6 @@ div#columnright {
 
 p.sectionTitle {
 	text-align: center;
-	border-top: 1px solid #4682B4;
-	border-bottom: 1px solid #4682B4;
 	color:#4682B4;
 	padding-top: 5px;
 	padding-bottom: 5px;
@@ -138,7 +81,6 @@ div#columnright ul li {
 div#columnright table {
 	font-size: 11pt;
 	line-height: 150%;
-	border: 1px solid #bbb;
 }
 
 div#columnright table td {
@@ -243,7 +185,6 @@ div#columnright div.principleDetailed div.guideline div.criteria ul li.listImage
 	margin-left: 0;
 }
 
-
 div#columnright div.principleDetailed div.guideline div.criteria ul div.img{
 	padding-left:10px;
 	padding-top: 5px;
@@ -263,16 +204,3 @@ div#columnright div#sitemap p:first-child {
 div#columnright div#sitemap a{
 	text-decoration: none;
 }
-
-/* STILIZZAZIONE FOOTER */
-
-div#footer {
-	width:1000px;
-	border-top:1px solid #bbb;
-	clear: both;
-}
-
-p#authors {
-	text-align: center;
-}
-
