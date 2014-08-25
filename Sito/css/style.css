@@ -175,7 +175,7 @@ div#columnright table#questions td {
 
 div#columnright div.img img {
 	padding-left:30px;
-	width:500px;
+	max-width:500px;
 }
 
 /* STILIZZAZIONE PAGINA USER TESTING */
