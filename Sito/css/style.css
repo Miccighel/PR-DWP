@@ -40,17 +40,17 @@ div#container {
 	border-left: 1px solid #bbb;
 	border-right: 1px solid #bbb;
 	box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
-	width:1000px;
+	width:88%;
 	padding: 5px;
 }
 
 /* STILIZZAZIONE TESTATA */
 
 div#header {
-	width:1000px;
+	width:100%;
 	border-bottom:1px solid #bbb;
 	padding-bottom: 5px;
-	height:215px;
+	max-height:220px;
 }
 
 div#logo {
@@ -74,7 +74,7 @@ div#header a {
 /* STILIZZAZIONE COLONNA SINISTRA */
 
 div#columnleft {
-	width:289px;	
+	width:21%;	
 	float:left;
 	padding-left:20px;
 	padding-top:10px;
@@ -102,7 +102,7 @@ nav>ul li:first-child {
 
 div#columnright {
 	border-left:1px solid #bbb;
-	width:670px;
+	width:75.5%;
 	float:left;
 	padding-left:10px;
 	padding-right: 10px;
@@ -250,6 +250,32 @@ div#columnright div.principleDetailed div.guideline div.criteria ul div.img{
 	padding-bottom: 5px;
 }
 
+/* STILIZZAZIONE PAGINA ACCESSIBILITA */
+
+div#columnright div.requirement p {
+	padding-left: 20px;
+}
+
+div#columnright div.requirement p.valid {
+	background-color: #66FF00;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+div#columnright div.requirement p.notapplicable {
+	background-color: #00ffff;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+div#columnright div.requirement p:first-child {
+	padding-left: 0;
+}
+
+div#columnright div.requirement ul {
+	padding-left: 30px;
+}
+
 /* STILIZZAZIONE MAPPA SITO */
 
 div#columnright div#sitemap p{
@@ -267,7 +293,7 @@ div#columnright div#sitemap a{
 /* STILIZZAZIONE FOOTER */
 
 div#footer {
-	width:1000px;
+	width:100%;
 	border-top:1px solid #bbb;
 	clear: both;
 }

@@ -204,3 +204,29 @@ div#columnright div#sitemap p:first-child {
 div#columnright div#sitemap a{
 	text-decoration: none;
 }
+
+/* STILIZZAZIONE PAGINA ACCESSIBILITA */
+
+div#columnright div.requirement p {
+	padding-left: 20px;
+}
+
+div#columnright div.requirement p.valid {
+	background-color: #66FF00;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+div#columnright div.requirement p.notapplicable {
+	background-color: #00ffff;
+	padding-left: 0;
+	margin-left: 20px;
+}
+
+div#columnright div.requirement p:first-child {
+	padding-left: 0;
+}
+
+div#columnright div.requirement ul {
+	padding-left: 30px;
+}

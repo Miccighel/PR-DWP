@@ -25,10 +25,15 @@
 			<nav>
 				<ul>
 					<li>Menù</li>
-					<li><a accesskey="h" href="../index.html">[H] Homepage</a></li>
-					<li><a accesskey="a" href="accessibilita.html">[A] Accessibilità</a></li>
+					<li><a accesskey="h" href="../index.html">[H] Homepage</a></li>					
 					<li><a accesskey="m" href="mappa.html">[M] Mappa del Sito</a></li>
-				</ul>			
+				</ul>				
+				<ul>
+					<li>Accessibilità</li>
+					<li><a accesskey="a" href="accessibilita.html#validita">[A] Validità del codice</a></li>
+					<li><a accesskey="s" href="accessibilita.html#acceleratori">[S] Acceleratori</a></li>
+					<li><a accesskey="d" href="accessibilita.html#legge">[D] Legge Stanca</a></li>		
+				</ul>
 				<ul>
 					<li>Simulazione Euristica Usabilità</li>
 					<li><a accesskey="q" href="simulazione.html#introduzione">[Q] Introduzione</a></li>
@@ -57,7 +62,7 @@
 		</div>
 		<div id="columnright">
 
-			<p class="sectionTitle">Validità del codice</p>
+			<p class="sectionTitle"><a id="validita">Validità del codice</a></p>
 
 			<p>I diversi file che compongono questo sito web risultano validi per quanto riguarda il codice HTML 5 e quello CSS3. In tal modo, può garantire un livello minimo di accessibilità agli utenti che necessitano di tecnologie assistive.
 				Tali file sono stati testati utilizzando i validatori ufficiali del consorzio W3C.</p>
@@ -78,7 +83,9 @@
 					</a>
 				</p>
 
-				<p class="sectionTitle">Acceleratori</p>
+				<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
+
+				<p class="sectionTitle"><a id="acceleratori">Acceleratori</a></p>
 
 				<p>Il sito web dispone di acceleratori da tastiera per offrire una navigazione completa utilizzando solamente tale periferica. La lettera corrispondente all'acceleratore viene indicata nel punto in cui può essere utilizzato.</p>
 
@@ -88,8 +95,174 @@
 
 				<p>Browser supportati: </p>
 
-				<img src="../img/browser.jpg" width="675" alt="Browser supportati"/>
+				<img src="../img/browser.jpg" width="675" alt="Browser supportati"/><br/>
 
+				<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
+
+				<p class="sectionTitle"><a id="legge">Legge Stanca</a></p>
+
+				<p>L'accessibilità delle pagine di questo sito web è stata analizzata utilizzando i requisiti indicati dalla Legge Stanca del 2004, basata sulle linee guida del W3C.</p>
+
+				<p>Una volta terminata la fase di analisi, il sito risulta essere <strong>CONFORME</strong>.</p>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>1</p>
+					<p><strong>Enunciato: </strong>Realizzare le pagine e gli oggetti al loro interno utilizzando tecnologie definite da grammatiche formali pubblicate nelle versioni più recenti disponibili quando sono supportate dai programmi utente. Utilizzare elementi ed attributi in modo conforme alle specifiche, rispettandone l’aspetto semantico. In particolare, per i linguaggi a marcatori HTML (HypertText Markup Language) e XHTML (eXtensible HyperText Markup Language):</p>
+					<ul>
+						<li>Per tutti i siti di nuova realizzazione utilizzare almeno la versione 4.01 dell’HTML o preferibilmente la versione 1.0 dell’XHTML, in ogni caso conDTD (Document Type Definition - Definizione del Tipo di Documento) di tipo Strict.</li>
+						<li>Per i siti esistenti, in sede di prima applicazione, nel caso in cui non sia possibile ottemperare al punto a) è consentito utilizzare la versione dei linguaggi sopra indicati con DTD Transitional, ma con alcune avvertenze [...]</li>
+					</ul>
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>il linguaggio di markup utilizzato nel sito è la quinta versione dell'HTML, ovvero la più recente disponibile.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>2</p>
+					<p><strong>Enunciato: </strong>Non è consentito l’uso dei frame nella realizzazione di nuovi siti. In sede di prima applicazione, per i siti Web esistenti già realizzati con frame è consentito l’uso di HTML 4.01 o XHTML 1.0 con DTD frameset, ma con le seguenti avvertenze [...]</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>nel sito non è presente alcun tipo di frame.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>3</p>
+					<p><strong>Enunciato: </strong>Fornire una alternativa testuale equivalente per ogni oggetto non di testo presente in una pagina e garantire che quando il contenuto non testuale di un oggetto cambia dinamicamente vengano aggiornati anche i relativi contenuti equivalenti predisposti; l’alternativa testuale equivalente di un oggetto non testuale deve essere commisurata alla funzione esercitata dall’oggetto originale nello specifico contesto.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>gli unici contenuti non testuali presenti sono le immagini, ed è stato utilizzato l'attributo <i>alt</i> nel markup.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>4</p>
+					<p><strong>Enunciato: </strong>Garantire che tutti gli elementi informativi e tutte le funzionalità siano disponibili anche in assenza del particolare colore utilizzato per presentarli nella pagina.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>il sito nella sua interezza si può fruire prescindendo dal colore utilizzato nelle varie componenti</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>5</p>
+					<p><strong>Enunciato: </strong>Evitare oggetti e scritte lampeggianti o in movimento le cui frequenze di intermittenza possano provocare disturbi da epilessia fotosensibile o disturbi della concentrazione, ovvero possano causare il malfunzionamento delle tecnologie assistive utilizzate; qualora esigenze informative richiedano comunque il loro utilizzo, avvertire l’utente del possibile rischio prima di presentarli e predisporre metodi che consentano di evitare tali elementi.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti oggetti lampeggianti o in movimento.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>6</p>
+					<p><strong>Enunciato: </strong>Garantire che siano sempre distinguibili il contenuto informativo (foreground) e lo sfondo (background), ricorrendo a un sufficiente contrasto (nel caso del testo) o a differenti livelli sonori (in caso di parlato con sottofondo musicale); evitare di presentare testi in forma di immagini; ove non sia possibile, ricorrere agli stessi criteri di distinguibilità indicati in precedenza.</p>			
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>Il livello minimo di contrasto tra sfondo e testo è stato rispettato, mentre non sono presenti contenuti sonori o immagini di testo.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>7</p>
+					<p><strong>Enunciato: </strong>Utilizzare mappe immagine sensibili di tipo lato client piuttosto che lato server, salvo il caso in cui le zone sensibili non possano essere definite con una delle forme geometriche predefinite indicate nella DTD adottata.</p>	
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile.</p>
+					<p><strong>Osservazioni: </strong>non è una tecnica utilizzata nel sito.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>8</p>
+					<p><strong>Enunciato: </strong>In caso di utilizzo di mappe immagine lato server, fornire i collegamenti di testo alternativi necessari per ottenere tutte le informazioni o i servizi raggiungibili interagendo direttamente con la mappa.</p>	
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile.</p>
+					<p><strong>Osservazioni: </strong>non è una tecnica utilizzata nel sito.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>9</p>
+					<p><strong>Enunciato: </strong>Per le tabelle dati usare gli elementi (marcatori) e gli attributi previsti dalla DTD adottata per descrivere i contenuti e identificare le intestazioni di righe e colonne.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>nelle tabelle utilizzate sono stati impiegati i corretti tag previsti dal DTD di HTML 5</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>10</p>
+					<p><strong>Enunciato: </strong>Per le tabelle dati usare gli elementi (marcatori) e gli attributi previsti nella DTD adottata per associare le celle di dati e le celle di intestazione che hanno due o più livelli logici di intestazione di righe o colonne.</p>
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>nelle tabelle utilizzate viene correttamente impiegato l'attributo <i>colspan</i> per tali celle.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>11</p>
+					<p><strong>Enunciato: </strong>Usare i fogli di stile per controllare la presentazione dei contenuti e organizzare le pagine in modo che possano essere lette anche quando i fogli di stile siano disabilitati o non supportati.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>lo stile del sito è contenuto in appositi file CSS.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>12</p>
+					<p><strong>Enunciato: </strong>La presentazione e i contenuti testuali di una pagina devono potersi adattare alle dimensioni della finestra del browser utilizzata dall’utente senza sovrapposizione degli oggetti presenti o perdita di informazioni tali da rendere incomprensibile il contenuto, anche in caso di ridimensionamento, ingrandimento o riduzione dell’area di visualizzazione o dei caratteri rispetto ai valori predefiniti di tali parametri.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>nel foglio di stile css vengono impiegate misurazioni percentuali per ottenere un layout fluido che si adatta alle dimensioni della finestra.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>13</p>
+					<p><strong>Enunciato: </strong>In caso di utilizzo di tabelle a scopo di impaginazione, garantire che il contenuto della tabella sia comprensibile anche quando questa viene letta in modo linearizzato e utilizzare gli elementi e gli attributi di una tabella rispettandone il valore semantico definito nella specifica del linguaggio a marcatori utilizzato.</p>					
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile.</p>
+					<p><strong>Osservazioni: </strong>non sono state impiegate tabelle per impaginare il sito.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>14</p>
+					<p><strong>Enunciato: </strong>Nei moduli (form), associare in maniera esplicita le etichette ai rispettivi controlli, posizionandole in modo che sia agevolata la compilazione dei campi da parte di chi utilizza le tecnologie assistive.</p>				
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile.</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti form.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>15</p>
+					<p><strong>Enunciato: </strong>Garantire che le pagine siano utilizzabili quando script, applet, o altri oggetti di programmazione sono disabilitati oppure non supportati; ove ciò non sia possibile fornire una spiegazione testuale della funzionalità svolta e garantire una alternativa testuale equivalente, in modo analogo a quanto indicato nel requisito n. 3.</p>					
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti script o oggetti di programmazione.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>16</p>
+					<p><strong>Enunciato: </strong>Garantire che i gestori di eventi che attivano script, applet o altri oggetti di programmazione o che possiedono una propria specifica interfaccia, siano indipendenti da uno specifico dispositivo di input.</p>				
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti script o oggetti di programmazione.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>17</p>
+					<p><strong>Enunciato: </strong>Garantire che le funzionalità e le informazioni veicolate per mezzo di oggetti di programmazione, oggetti che utilizzano tecnologie non definite da grammatiche formali pubblicate, script e applet siano direttamente accessibili.</p>	
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti script o oggetti di programmazione.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>18</p>
+					<p><strong>Enunciato: </strong>Nel caso in cui un filmato o una presentazione multimediale siano indispensabili per la completezza dell’informazione fornita o del servizio erogato, predisporre una alternativa testuale equivalente, sincronizzata in forma di sotto-titolazione o di descrizione vocale, oppure fornire un riassunto o una semplice etichetta per ciascun elemento video o multimediale tenendo conto del livello di importanza e delle difficoltà di realizzazione nel caso di trasmissioni in tempo reale.</p>					
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti filmati.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>19</p>
+					<p><strong>Enunciato: </strong>Rendere chiara la destinazione di ciascun collegamento ipertestuale (link) con testi significativi anche se letti indipendentemente dal proprio contesto oppure associare ai collegamenti testi alternativi che possiedano analoghe caratteristiche esplicative, nonché prevedere meccanismi che consentano di evitare la lettura ripetitiva di sequenze di collegamenti comuni a più pagine.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto</p>
+					<p><strong>Osservazioni: </strong>le etichette dei link sono pienamente descrittive della destinazione ed è presente un meccanismo di ancore interno per navigare più velocemente le pagine.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>20</p>
+					<p><strong>Enunciato: </strong>Nel caso che per la fruizione del servizio erogato in una pagina è previsto un intervallo di tempo predefinito entro il quale eseguire determinate azioni, è necessario avvisare esplicitamente l’utente, indicando il tempo massimo consentito e le alternative per fruire del servizio stesso.</p>					
+					<p class="notapplicable"><strong>Esito: </strong>requisito non valutabile.</p>
+					<p><strong>Osservazioni: </strong>nel sito non sono presenti intervalli entro cui compiere determinate azioni.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>21</p>
+					<p><strong>Enunciato: </strong>Rendere selezionabili e attivabili tramite comandi da tastiere o tecnologie in emulazione di tastiera o tramite sistemi di puntamento diversi dal mouse i collegamenti presenti in una pagina; per facilitare la selezione e l’attivazione dei collegamenti presenti in una pagina è necessario garantire che la distanza verticale di liste di link e la spaziatura orizzontale tra link consecutivi sia di almeno 0,5 em, le distanze orizzontale e verticale tra i pulsanti di un modulo sia di almeno 0,5 em e che le dimensioni dei pulsanti in un modulo siano tali da rendere chiaramente leggibile l’etichetta in essi contenuta.</p>					
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>tutti i collegamenti possiedono acceleratori che consentono l'accesso da tastiera.</p>
+				</div>
+
+				<div class="requirement">
+					<p><strong>Requisito numero: </strong>22</p>
+					<p><strong>Enunciato: </strong>Per le pagine di siti esistenti che non possano rispettare i suelencati requisiti (pagine non accessibili), in sede di prima applicazione, fornire il collegamento a una pagina conforme a tali requisiti, recante informazioni e funzionalità equivalenti a quelle della pagina non accessibile ed aggiornata con la stessa frequenza, evitando la creazione di pagine di solo testo; il collegamento alla pagina conforme deve essere proposto in modo evidente all’inizio della pagina non accessibile.</p>			
+					<p class="valid"><strong>Esito: </strong>requisito soddisfatto.</p>
+					<p><strong>Osservazioni: </strong>tutte le pagine del sito, dove applicabile, rispettano i requisiti della legge.</p>
+				</div>
+				
 				<a accesskey="l" href="#top" class="linktop">[L] Torna su</a>
 
 			</div>
